@@ -1,0 +1,41 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto,1fr);
+    gap: 20px;
+}
+#bucket>div:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#bucket>div>img{
+    width: 100% ;
+    height: 320px;
+}
+#bucket>div>h3,#bucket>div>h2,#bucket>div>button{
+    margin-left: 8px;
+    
+}
+#bucket>div>button{
+    margin-bottom: 8px;
+    padding: 5px 5px;
+    background-color:  burlywood;
+    border-radius: 3px;
+    border: none;
+}
+#bucket>div>button:hover{
+    cursor: pointer;
+    background-color: rgb(151, 108, 53);
+}
+#confirm_checkout{
+    margin: 20px;
+    margin-left: 0;
+    padding: 10px 15px;
+    background-color:  burlywood;
+    border-radius: 3px;
+    border: none;
+    font-size: 24px;
+}
+#confirm_checkout:hover{
+    cursor: pointer;
+    background-color: rgb(151, 108, 53);
+}
